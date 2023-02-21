@@ -1,2 +1,2 @@
-# ketchup-starter
-A starter project for your next ketchup
+# Ketchup Starter
+A flutter starter project for your next ketchup
