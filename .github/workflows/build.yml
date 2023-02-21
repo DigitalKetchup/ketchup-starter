@@ -3,7 +3,9 @@ name: Build Main
   push:
     branches:
       - main
-  pull_request
+  pull_request:
+    branches:
+      - main
 jobs:
   build_web_prod:
     runs-on: ubuntu-latest
