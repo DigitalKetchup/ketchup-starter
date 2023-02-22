@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ketchup_starter/common/environment.dart';
+import 'package:ketchup_starter/common/env.dart';
 
 Future<void> main() async {
   var env = await Environment.getEnv();
