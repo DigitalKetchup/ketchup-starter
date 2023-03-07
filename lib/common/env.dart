@@ -5,7 +5,6 @@ class Environment {
   static const String _defaultEnv = 'dev';
   static const String _defaultTitle = 'Digital Ketchup Demo';
   static const bool _defaultShowComingSoonPage = true;
-  static const bool _defaultShowComingSoonBackground = true;
 
 // Convet to Singleton
   static Future<Environment> instance() async {
@@ -34,13 +33,5 @@ class Environment {
 
   String get title {
     return dotenv.env['APP_TITLE'] ?? _defaultTitle;
-  }
-
-  bool get comingSoonHasBackground {
-    var pageWithBg = dotenv.env['APP_COMING_SOON_IMAGE_BG'];
-    if (pageWithBg == null) {
-      return _defaultShowComingSoonBackground;
-    }
-    return pageWithBg == "true";
   }
 }

@@ -9,6 +9,7 @@ A flutter starter project for your next ketchup
     ```
     git clone git@github.com:DigitalKetchup/ketchup_starter.git
     ```
+1. Change directory name, package name, import name, readme and .vscode/launch.json
 1. Add web icons in `./web/icons`
 1. Create `.env` file and provide environment variables
 
